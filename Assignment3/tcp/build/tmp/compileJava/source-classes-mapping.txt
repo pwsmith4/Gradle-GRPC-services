@@ -5,6 +5,11 @@ Assignment3Starter/JsonUtils.java
  Assignment3Starter.JsonUtils
 Assignment3Starter/NetworkUtils.java
  Assignment3Starter.NetworkUtils
+Assignment3Starter/ClientGui.java
+ Assignment3Starter.ClientGui
+Assignment3Starter/ServerGui.java
+ Assignment3Starter.ServerGui
+ Assignment3Starter.ServerGui$1
 Assignment3Starter/OutputPanel.java
  Assignment3Starter.OutputPanel
  Assignment3Starter.OutputPanel$1
@@ -15,8 +20,3 @@ Assignment3Starter/PicturePanel.java
  Assignment3Starter.PicturePanel
  Assignment3Starter.PicturePanel$InvalidCoordinateException
  Assignment3Starter.PicturePanel$States
-Assignment3Starter/ServerGui.java
- Assignment3Starter.ServerGui
- Assignment3Starter.ServerGui$1
-Assignment3Starter/ClientGui.java
- Assignment3Starter.ClientGui

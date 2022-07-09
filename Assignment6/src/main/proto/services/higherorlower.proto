@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "service";
+option java_outer_classname = "HigherOrLowerProto";
+import "google/protobuf/empty.proto";
+
+
+package service;
+
+service HigherOrLower {
+  rpc guess (HigherRequest) returns (HigherResponse) {}
+  rpc leaderboard (google.protobuf.Empty) returns (WinnerList) {}
+}
+
+// The request message
+message HigherRequest {
+  string name = 1;
+  int32 guessNum = 2;
+  bool isUp = 3;
+}
+
+// The response message
+message HigherResponse {
+  string message = 1;
+  Winner winner = 2;
+  int32 numWin = 3;
+  bool win = 4;
+}
+
+message WinnerList {
+  repeated Winner winners = 1;
+}
+
+message Winner {
+  string name = 1; // timer name
+  int32 numWins = 2; //The number of seconds that have passed since the timer was started
+}

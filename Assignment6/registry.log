@@ -1,0 +1,18 @@
+Nov 19, 2021 9:33:18 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Nov 23, 2021 2:14:49 PM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Apr 06, 2022 5:37:16 PM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Jul 04, 2022 9:03:44 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Jul 04, 2022 9:06:02 AM registry.Logging logging
+INFO: New service registered: test localhost:8000
+Jul 04, 2022 9:28:02 AM registry.Logging logging
+INFO: New service registered: Hello you localhost:8000
+Jul 04, 2022 9:37:57 AM registry.Logging logging
+INFO: New service registered: Hello you localhost:8000
+Jul 04, 2022 9:39:13 AM registry.Logging logging
+INFO: New service registered: Hello you localhost:8000
+Jul 04, 2022 9:41:09 AM registry.Logging logging
+INFO: New service registered: Hello you localhost:8000
